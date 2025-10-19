@@ -36,7 +36,7 @@ __parse_git_branch() {
     fi;
   fi;
 }
-PS1=$'\e[0;31m%n\e[0;36m@%m\e[0;37m %~\e[0;33m $(__parse_git_branch) \e[0;32m▶\e[0m '
+PS1=$'\e[0;32m %~\e[0;33m $(__parse_git_branch) \e[0;34m▶\e[0m '
 
 # ---------------------------------------------------
 # nvm settings
